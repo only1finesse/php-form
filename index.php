@@ -5,7 +5,12 @@ if(){//show feedback
 
 
 }else{// show form
-  echo '';
+  echo '
+  <form action=''>
+
+  </form>
+
+  ';
 
 }
 
