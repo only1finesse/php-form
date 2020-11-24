@@ -13,7 +13,7 @@ if(isset($_GET["FirstName"])){//show feedback
   echo '
   <form action="">
   <p>First Name: <input type="text" name="FirstName"  /></p>
-  <p>Last Name: <input type="text" name="FirstName"  /></p>
+  <p>Last Name: <input type="text" name="LastName"  /></p>
   <input type="submit" />
   </form>
   ';
