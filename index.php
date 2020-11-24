@@ -14,6 +14,16 @@ if(isset($_GET["FirstName"])){//show feedback
   <form action="">
   <p>First Name: <input type="text" name="FirstName"  /></p>
   <p>Last Name: <input type="text" name="LastName"  /></p>
+  
+  <p>Favorite Color:</p>
+  <p><input type="radio" name="FavoriteColor" value="red" /> Red </p>
+  <p><input type="radio" name="FavoriteColor" value="blue" /> Blue </p>
+  <p><input type="radio" name="FavoriteColor" value="purple" /> Purple </p>
+  
+  <p>Sundae Toppings:</p>
+  <p><input type="radio" name="Toppings[]" value="oreos" /> Oreos </p>
+  <p><input type="radio" name="Toppings[]" value="whipped cream" /> Whipped Cream </p>
+  <p><input type="radio" name="Toppings[]" value="crushed nuts" /> Crushed Nuts </p>
   <input type="submit" />
   </form>
   ';
